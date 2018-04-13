@@ -1,0 +1,82 @@
+QPushButton{
+	border-width: 1px;
+	border-radius: 6px;
+	border-width: 1px;
+	border-bottom-color: rgb(150,150,150);
+	border-right-color: rgb(165,165,165);
+	border-left-color: rgb(165,165,165);
+	border-top-color: rgb(180,180,180);
+	border-style: solid;
+	color: rgb(0, 0, 0);
+	padding: 4px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+	border-width: 2px;
+	border-radius:6px;
+	border-top-color: rgb(255,150,60);
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(255,150,60, 255));
+	border-left-color:  qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(255,150,60, 255));
+	border-bottom-color: rgb(200,70,20);
+	border-style: solid;
+	color: rgb(0, 0, 0);
+	padding: 2px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:pressed{
+	border-width: 1px;
+	border-radius: 6px;
+	border-width: 1px;
+	border-color: rgb(150,150,150);
+	border-style: solid;
+	color: rgb(0, 0, 0);
+	padding: 4px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(250, 130, 40, 255));
+}
+QPushButton:disabled{
+	border-width: 1px;
+	border-radius: 6px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(200, 200, 200, 255), stop:1 rgba(230, 230, 230, 255));
+}
+
+QProgressBar {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	border-width: 1px; 
+	border-radius: 4px;
+	border-style: inset;
+	border-color: rgb(150,150,150);
+}
+	QProgressBar::chunk {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(250, 130, 40, 255));
+	border-radius: 3px;
+}
+
+QTabBar::tab {
+  background-color:rgb(220, 220, 220);
+	padding: 4px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+  color: rgb(255, 255, 255);
+  background-color:rgb(42, 42, 42);
+  border-color:rgb(42, 42, 42);
+  margin-left: 0px;
+  margin-right: 2px;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;
+}
+
+QTabBar::tab:last:selected {
+  background-color:rgb(42, 42, 42);
+	border-color:rgb(42, 42, 42);
+	margin-left: 0px;
+  margin-right: 2px;
+	border-top-right-radius:4px;
+	border-top-left-radius:4px;
+}
+
+QTabBar::tab:!selected {
+    	margin-top: 2px;
+		margin-right: 2px;
+}
