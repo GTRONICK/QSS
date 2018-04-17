@@ -1,16 +1,19 @@
+/*
+Ubuntu Style Sheet for QT Applications
+Author: Jaime A. Quiroga P.
+Company: GTRONICK
+Last updated: 17/04/2018
+*/
 QLineEdit {
 	background-color:rgb(255,255,255);
 	selection-background-color:rgb(236,116,64);
 }
-
 QTextEdit {
 	selection-background-color:rgb(236,116,64);
 }
-
 QPlainTextEdit {
 	selection-background-color:rgb(236,116,64);
 }
-
 QPushButton{
 	border-width: 1px;
 	border-radius: 6px;
@@ -54,7 +57,6 @@ QPushButton:disabled{
 	border-radius: 6px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(200, 200, 200, 255), stop:1 rgba(230, 230, 230, 255));
 }
-
 QProgressBar {
 	text-align: center;
 	color: rgb(0, 0, 0);
@@ -74,13 +76,10 @@ QProgressBar::chunk:horizontal {
 	border-right-color:qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-left-color:qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 }
-
-
 QTabWidget {
 	color:rgb(0,0,0);
 	background-color:rgb(247,246,246);
 }
-
 QTabWidget::pane {
 		border-color: rgb(180,180,180);
 		background-color:rgb(247,246,246);
@@ -88,7 +87,6 @@ QTabWidget::pane {
 		border-width: 1px;
     	border-radius: 6px;
 }
-
 QTabBar::tab {
 	padding:2px;
 	color:rgb(81,72,65);
@@ -102,18 +100,15 @@ QTabBar::tab {
 	border-right-color: rgb(180,180,180);
 	border-bottom-color: transparent;
 }
-
 QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover {
   	background-color:rgb(247,246,246);
   	margin-left: 0px;
   	margin-right: 1px;
 }
-
 QTabBar::tab:!selected {
     	margin-top: 1px;
 		margin-right: 1px;
 }
-
 QCheckBox:hover {
 	border-radius:4px;
 	border-style:solid;
@@ -121,8 +116,6 @@ QCheckBox:hover {
 	border-color: rgb(255,150,60);
 	background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(190, 90, 50, 50), stop:1 rgba(250, 130, 40, 50));
 }
-
-
 QCheckBox::indicator:checked {
 	border-radius:4px;
 	border-style:solid;
@@ -130,7 +123,6 @@ QCheckBox::indicator:checked {
 	border-color: rgb(180,180,180);
   	background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(190, 90, 50, 255), stop:1 rgba(250, 130, 40, 255));
 }
-
 QCheckBox::indicator:unchecked {
 	border-radius:4px;
 	border-style:solid;
@@ -138,17 +130,14 @@ QCheckBox::indicator:unchecked {
 	border-color: rgb(180,180,180);
   	background-color:rgb(255,255,255);
 }
-
 QMenuBar {
 	color:rgb(223,219,210);
 	background-color:rgb(65,64,59);
 }
-
 QMenuBar::item {
 	color:rgb(223,219,210);
 	background-color:rgb(65,64,59);
 }
-
 QMenuBar::item:selected {
 	color:rgb(255,255,255);
 	border-top-width:2px;
@@ -162,7 +151,6 @@ QMenuBar::item:selected {
 	border-right-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(90, 87, 78, 255), stop:1 rgba(47,47,44, 255));
 	border-left-color:  qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(90, 87, 78, 255), stop:1 rgba(47,47,44, 255));
 }
-
 QMenu::item:selected {
 	color:rgb(255,255,255);
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(225, 108, 54, 255), stop:1 rgba(246, 134, 86, 255));
@@ -177,7 +165,6 @@ QMenu::item:selected {
 	border-right-color:qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-left-color:qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 }
-
 QMenu::item {
 	color:rgb(223,219,210);
 	padding-left:20px;
@@ -185,7 +172,6 @@ QMenu::item {
 	padding-bottom:4px;
 	padding-right:10px;
 }
-
 QMenu {
 	color:rgb(223,219,210);
    background-color:rgb(65,64,59);
