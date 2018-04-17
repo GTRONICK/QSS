@@ -110,10 +110,17 @@ QTabBar::tab:!selected {
     	margin-top: 1px;
 		margin-right: 1px;
 }
+QCheckBox {
+	padding:2px;
+}
 QCheckBox:hover {
 	border-radius:4px;
 	border-style:solid;
 	border-width:1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-top: 1px;
 	border-color: rgb(255,150,60);
 	background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(190, 90, 50, 50), stop:1 rgba(250, 130, 40, 50));
 }
