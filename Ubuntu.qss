@@ -2,7 +2,7 @@
 Ubuntu Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 17/04/2018
+Last updated: 19/04/2018
 Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
 */
 QLineEdit {
@@ -50,7 +50,7 @@ QPushButton:pressed{
 	border-bottom-color: rgba(200,70,20,200);
 	border-style: solid;
 	color: rgb(0, 0, 0);
-	padding: 4px;
+	padding: 2px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
 }
 QPushButton:disabled{
@@ -182,5 +182,5 @@ QMenu::item {
 }
 QMenu {
 	color:rgb(223,219,210);
-   background-color:rgb(65,64,59);
+	background-color:rgb(65,64,59);
 }
