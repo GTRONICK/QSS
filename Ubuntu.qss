@@ -2,7 +2,7 @@
 Ubuntu Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 19/04/2018
+Last updated: 19/04/2018, 15:33.
 Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
 */
 QLineEdit {
@@ -89,7 +89,10 @@ QTabWidget::pane {
     	border-radius: 6px;
 }
 QTabBar::tab {
-	padding:2px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-bottom:2px;
+	padding-top:2px;
 	color:rgb(81,72,65);
   	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(221,218,217,255), stop:1 rgba(240,239,238,255));
 	border-style: solid;
@@ -143,11 +146,17 @@ QMenuBar {
 	background-color:rgb(65,64,59);
 }
 QMenuBar::item {
+	padding-top:4px;
+	padding-left:4px;
+	padding-right:4px;
 	color:rgb(223,219,210);
 	background-color:rgb(65,64,59);
 }
 QMenuBar::item:selected {
 	color:rgb(255,255,255);
+	padding-top:2px;
+	padding-left:2px;
+	padding-right:2px;
 	border-top-width:2px;
 	border-left-width:2px;
 	border-right-width:2px;
