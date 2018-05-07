@@ -2,20 +2,27 @@
 Ubuntu Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 07/05/2018, 12:14.
+Last updated: 07/05/2018, 12:24.
 Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
 */
+QLabel {
+	color:rgb(17,17,17);
+}
 QLineEdit {
 	background-color:rgb(255,255,255);
 	selection-background-color:rgb(236,116,64);
+	color:rgb(17,17,17);
 }
 QTextEdit {
+	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
 }
 QPlainTextEdit {
+	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
 }
 QPushButton{
+	color:rgb(17,17,17);
 	border-width: 1px;
 	border-radius: 6px;
 	border-width: 1px;
@@ -24,11 +31,11 @@ QPushButton{
 	border-left-color: rgb(165,165,165);
 	border-top-color: rgb(180,180,180);
 	border-style: solid;
-	color: rgb(0, 0, 0);
 	padding: 4px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
 }
 QPushButton:hover{
+	color:rgb(17,17,17);
 	border-width: 2px;
 	border-radius:6px;
 	border-top-color: rgb(255,150,60);
@@ -36,11 +43,11 @@ QPushButton:hover{
 	border-left-color:  qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(255,150,60, 255));
 	border-bottom-color: rgb(200,70,20);
 	border-style: solid;
-	color: rgb(0, 0, 0);
 	padding: 2px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
 }
 QPushButton:pressed{
+	color:rgb(17,17,17);
 	border-width: 1px;
 	border-radius: 6px;
 	border-width: 2px;
@@ -49,11 +56,11 @@ QPushButton:pressed{
 	border-left-color:  qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(200, 70, 20, 255), stop:1 rgba(255,150,60, 200));
 	border-bottom-color: rgba(200,70,20,200);
 	border-style: solid;
-	color: rgb(0, 0, 0);
 	padding: 2px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(255, 255, 255, 255));
 }
 QPushButton:disabled{
+	color:rgb(174,167,159);
 	border-width: 1px;
 	border-radius: 6px;
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(200, 200, 200, 255), stop:1 rgba(230, 230, 230, 255));
