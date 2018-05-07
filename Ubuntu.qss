@@ -2,7 +2,7 @@
 Ubuntu Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 19/04/2018, 15:33.
+Last updated: 07/05/2018, 12:14.
 Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
 */
 QLineEdit {
@@ -62,7 +62,7 @@ QProgressBar {
 	text-align: center;
 	color: rgb(0, 0, 0);
 	border-width: 1px; 
-	border-radius: 3px;
+	border-radius: 10px;
 	border-style: inset;
 	border-color: rgb(150,150,150);
 	background-color:rgb(221,221,219);
@@ -70,8 +70,8 @@ QProgressBar {
 QProgressBar::chunk:horizontal {
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(225, 108, 54, 255), stop:1 rgba(246, 134, 86, 255));
 	border-style: solid;
-	border-radius:3px;
-	border-width:2px;
+	border-radius:8px;
+	border-width:1px;
 	border-bottom-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(175,85,48,255), stop:1 rgba(236,114,67, 255));
 	border-top-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-right-color:qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
