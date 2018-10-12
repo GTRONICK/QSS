@@ -19,7 +19,7 @@ QTextEdit {
 	color: #a9b7c6;
 }
 QPlainTextEdit {
-	selection-background-color:#007b50;
+	selection-background-color:#f39c12;
 	background-color:#000000;
 	border-style: solid;
 	border-top-color: transparent;
