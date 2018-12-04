@@ -3,7 +3,7 @@ Material Dark Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Inspired on https://github.com/jxfwinter/qt-material-stylesheet
 Company: GTRONICK
-Last updated: 09/05/2018, 17:47.
+Last updated: 04/12/2018, 15:00.
 Available at: https://github.com/GTRONICK/QSS/blob/master/MaterialDark.qss
 */
 QMainWindow {
