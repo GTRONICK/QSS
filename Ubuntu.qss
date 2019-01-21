@@ -368,6 +368,14 @@ QScrollBar::handle:horizontal {
 	border-radius: 7px;
 	min-width: 25px;
 }
+QScrollBar::handle:horizontal:hover {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,150,60);
+	border-radius: 7px;
+	min-width: 25px;
+}
 QScrollBar::add-line:horizontal {
     border: 1px solid;
     border-color: rgb(207,207,207);
@@ -520,10 +528,18 @@ QScrollBar::sub-line:vertical:pressed {
     subcontrol-origin: margin;
 }
 QScrollBar::handle:vertical {
+    background: rgb(253,253,253);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(207,207,207);
+    border-radius: 7px;
+    min-height: 25px;
+}
+QScrollBar::handle:vertical:hover {
 	background: rgb(253,253,253);
 	border-style: solid;
 	border-width: 1px;
-	border-color: rgb(207,207,207);
+	border-color: rgb(255,150,60);
 	border-radius: 7px;
 	min-height: 25px;
 }
