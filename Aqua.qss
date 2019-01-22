@@ -2,7 +2,7 @@
 Aqua Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 04/12/2018, 10:24.
+Last updated: 22/01/2019, 07:55.
 Available at: https://github.com/GTRONICK/QSS/blob/master/Aqua.qss
 */
 QMainWindow {
@@ -423,6 +423,14 @@ QScrollBar::handle:horizontal {
 	border-radius: 7px;
 	min-width: 25px;
 }
+QScrollBar::handle:horizontal:hover {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(147, 200, 200);
+	border-radius: 7px;
+	min-width: 25px;
+}
 QScrollBar::handle:vertical {
 	background: rgb(253,253,253);
 	border-style: solid;
@@ -431,113 +439,121 @@ QScrollBar::handle:vertical {
 	border-radius: 7px;
 	min-height: 25px;
 }
+QScrollBar::handle:vertical:hover {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(147, 200, 200);
+	border-radius: 7px;
+	min-height: 25px;
+}
 QScrollBar::add-line:horizontal {
-    border: 2px transparent grey;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background: rgba(34, 142, 255, 255);
-    width: 20px;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   width: 20px;
+   subcontrol-position: right;
+   subcontrol-origin: margin;
 }
 QScrollBar::add-line:horizontal:pressed {
-    border: 2px transparent grey;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background: rgb(181,181,181);
-    width: 20px;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgb(181,181,181);
+   width: 20px;
+   subcontrol-position: right;
+   subcontrol-origin: margin;
 }
 QScrollBar::add-line:vertical {
-    border: 2px transparent grey;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background: rgba(34, 142, 255, 255);
-    height: 20px;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   height: 20px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
 }
 QScrollBar::add-line:vertical:pressed {
-    border: 2px transparent grey;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background: rgb(181,181,181);
-    height: 20px;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgb(181,181,181);
+   height: 20px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal {
-    border: 2px transparent grey;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    background: rgba(34, 142, 255, 255);
-    width: 20px;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   width: 20px;
+   subcontrol-position: left;
+   subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal:pressed {
-    border: 2px transparent grey;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    background: rgb(181,181,181);
-    width: 20px;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   background: rgb(181,181,181);
+   width: 20px;
+   subcontrol-position: left;
+   subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical {
-    border: 2px transparent grey;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    background: rgba(34, 142, 255, 255);
-    height: 20px;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   height: 20px;
+   subcontrol-position: top;
+   subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical:pressed {
-    border: 2px transparent grey;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    background: rgb(181,181,181);
-    height: 20px;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   background: rgb(181,181,181);
+   height: 20px;
+   subcontrol-position: top;
+   subcontrol-origin: margin;
 }
 QScrollBar::left-arrow:horizontal {
-    border: 1px transparent grey;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    width: 6px;
-    height: 6px;
-    background: white;
+   border: 1px transparent grey;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
 }
 QScrollBar::right-arrow:horizontal {
-    border: 1px transparent grey;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    width: 6px;
-    height: 6px;
-    background: white;
+   border: 1px transparent grey;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
 }
 QScrollBar::up-arrow:vertical {
-    border: 1px transparent grey;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    width: 6px;
-    height: 6px;
-    background: white;
+   border: 1px transparent grey;
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
 }
 QScrollBar::down-arrow:vertical {
-    border: 1px transparent grey;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    width: 6px;
-    height: 6px;
-    background: white;
+   border: 1px transparent grey;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
 }
 QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
-    background: none;
+   background: none;
 }
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
-    background: none;
+   background: none;
 }
