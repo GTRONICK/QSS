@@ -8,3 +8,6 @@ Themes available:
 1. [Aqua](https://github.com/GTRONICK/QSS/blob/master/Aqua.qss)
 
 Stay tunned!, this files are being updated frequently.
+
+*Consider donating :)* **PayPal Account:** gtronick@gmail.com 
+
