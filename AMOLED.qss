@@ -2,7 +2,7 @@
 AMOLED Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 22/01/2019, 12:33.
+Last updated: 15/10/2019, 11:40.
 Available at: https://github.com/GTRONICK/QSS/blob/master/AMOLED.qss
 */
 QMainWindow {
@@ -52,31 +52,6 @@ QPushButton::default{
 	padding: 2px;
 	background-color: #000000;
 }
-QToolButton {
-	border-style: solid;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	border-left-color: transparent;
-	border-bottom-color: #e67e22;
-	border-bottom-width: 1px;
-	border-style: solid;
-	color: #a9b7c6;
-	padding: 2px;
-	background-color: #000000;
-}
-QToolButton:hover{
-	border-style: solid;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	border-left-color: transparent;
-	border-bottom-color: #e67e22;
-	border-bottom-width: 2px;
-	border-bottom-radius: 6px;
-	border-style: solid;
-	color: #FFFFFF;
-	padding-bottom: 1px;
-	background-color: #000000;
-}
 QPushButton:hover{
 	border-style: solid;
 	border-top-color: transparent;
@@ -116,6 +91,31 @@ QPushButton:disabled{
 	padding-bottom: 1px;
 	background-color: #000000;
 }
+QToolButton {
+	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: #e67e22;
+	border-bottom-width: 1px;
+	border-style: solid;
+	color: #a9b7c6;
+	padding: 2px;
+	background-color: #000000;
+}
+QToolButton:hover{
+	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: #e67e22;
+	border-bottom-width: 2px;
+	border-bottom-radius: 6px;
+	border-style: solid;
+	color: #FFFFFF;
+	padding-bottom: 1px;
+	background-color: #000000;
+}
 QLineEdit {
 	border-width: 1px; border-radius: 4px;
 	border-color: rgb(58, 58, 58);
@@ -145,19 +145,30 @@ QProgressBar::chunk {
 	background-color: #e67e22;
 	border-radius: 5px;
 }
-QMenuBar {
+QMenu{
 	background-color:#000000;
 }
-QMenuBar::item {
+QMenuBar {
+	background:rgb(0, 0, 0);
 	color: #a9b7c6;
-  	spacing: 3px;
-  	padding: 1px 4px;
-  	background: #000000;
 }
-
-QMenuBar::item:selected {
-  	background:#000000;
+QMenuBar::item {
+  	spacing: 3px; 
+	padding: 1px 4px;
+  	background: transparent;
+}
+QMenuBar::item:selected { 
+  	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: #e67e22;
+	border-bottom-width: 1px;
+	border-bottom-radius: 6px;
+	border-style: solid;
 	color: #FFFFFF;
+	padding-bottom: 0px;
+	background-color: #000000;
 }
 QMenu::item:selected {
 	border-style: solid;
@@ -186,9 +197,6 @@ QMenu::item {
 	padding-top:4px;
 	padding-bottom:4px;
 	padding-right:7px;
-	background-color:#000000;
-}
-QMenu{
 	background-color:#000000;
 }
 QTabWidget {
