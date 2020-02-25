@@ -23,6 +23,10 @@ Themes available:
 6. [Aqua](https://github.com/GTRONICK/QSS/blob/master/Aqua.qss)
 
 ![Aqua theme screenshot](https://sites.google.com/site/gtronick/QSS-Aqua.png)
+
+7. [ManjaroMix](https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss)
+
+![Aqua theme screenshot](https://sites.google.com/site/gtronick/QSS-ManjaroMix.png)
     
 Stay tunned!, this files are being updated frequently.
 
