@@ -24,6 +24,7 @@ Themes available:
 
 ![Aqua theme screenshot](https://sites.google.com/site/gtronick/QSS-Aqua.png)
 
+## The ManjaroMix Theme!: Includes a radial gradient for Checkboxes, and minimalist arrows for scrollbars. ##
 7. [ManjaroMix](https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss)
 
 ![ManjaroMix theme screenshot](https://5c57bd3a-a-62cb3a1a-s-sites.googlegroups.com/site/gtronick/QSS-ManajaroMix.PNG)
