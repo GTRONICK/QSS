@@ -1,8 +1,8 @@
 /*
-Manjaro-like Style Sheet for QT Applications
+ManjaroMix Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 31/01/2019, 15:55.
+Last updated: 25/02/2020, 15:42.
 Available at: https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss
 */
 QMainWindow {
