@@ -26,7 +26,7 @@ Themes available:
 
 7. [ManjaroMix](https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss)
 
-![Aqua theme screenshot](https://sites.google.com/site/gtronick/QSS-ManjaroMix.png)
+![ManjaroMix theme screenshot](https://sites.google.com/site/gtronick/QSS-ManjaroMix.PNG)
     
 Stay tunned!, this files are being updated frequently.
 
