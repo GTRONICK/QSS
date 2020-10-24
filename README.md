@@ -28,6 +28,11 @@ Themes available:
 7. [ManjaroMix](https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss)
 
 ![ManjaroMix theme screenshot](https://5c57bd3a-a-62cb3a1a-s-sites.googlegroups.com/site/gtronick/QSS-ManajaroMix.PNG)
+
+8. [NeonButtons](https://github.com/GTRONICK/QSS/blob/master/ManjaroMix.qss)
+
+![NeonButtons screenshot](https://sites.google.com/site/gtronick/NeonActive.png)
+![NeonButtons screenshot](https://sites.google.com/site/gtronick/NeonClick.png)
     
 Stay tunned!, this files are being updated frequently.
 
