@@ -1,0 +1,47 @@
+/*
+Neon Style Sheet for QT Applications (QpushButton)
+Author: Jaime A. Quiroga P.
+Company: GTRONICK
+Last updated: 24/10/2020, 15:42.
+Available at: https://github.com/GTRONICK/QSS/blob/master/NeonButtons.qss
+*/
+QPushButton{
+	border-style: solid;
+	border-color: #050a0e;
+	border-width: 1px;
+	border-radius: 5px;
+	color: #d3dae3;
+	padding: 2px;
+	background-color: #100E19;
+}
+QPushButton::default{
+	border-style: solid;
+	border-color: #050a0e;
+	border-width: 1px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 2px;
+	background-color: #151a1e;
+}
+QPushButton:hover{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 #C0DB50, stop:0.4 #C0DB50, stop:0.5 #100E19, stop:1 #100E19);
+    border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 #100E19, stop:0.5 #100E19, stop:0.6 #C0DB50, stop:1 #C0DB50);
+    border-left-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #C0DB50, stop:0.3 #C0DB50, stop:0.7 #100E19, stop:1 #100E19);
+    border-right-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #C0DB50, stop:0.3 #C0DB50, stop:0.7 #100E19, stop:1 #100E19);
+	border-width: 2px;
+    border-radius: 1px;
+	color: #d3dae3;
+	padding: 2px;
+}
+QPushButton:pressed{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 #d33af1, stop:0.4 #d33af1, stop:0.5 #100E19, stop:1 #100E19);
+    border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 #100E19, stop:0.5 #100E19, stop:0.6 #d33af1, stop:1 #d33af1);
+    border-left-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d33af1, stop:0.3 #d33af1, stop:0.7 #100E19, stop:1 #100E19);
+    border-right-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #d33af1, stop:0.3 #d33af1, stop:0.7 #100E19, stop:1 #100E19);
+	border-width: 2px;
+    border-radius: 1px;
+	color: #d3dae3;
+	padding: 2px;
+}
