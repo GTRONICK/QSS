@@ -12,28 +12,19 @@ QCheckBox {
 	padding:2px;
 }
 QCheckBox:hover {
+	border:1px solid rgb(255,150,60);
 	border-radius:4px;
-	border-style:solid;
-	border-width:1px;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	border-color: rgb(255,150,60);
+	padding: 1px;
 	background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(190, 90, 50, 50), stop:1 rgba(250, 130, 40, 50));
 }
 QCheckBox::indicator:checked {
+	border:1px solid rgb(246, 134, 86);
 	border-radius:4px;
-	border-style:solid;
-	border-width:1px;
-	border-color: rgb(246, 134, 86);
   	background-color:rgb(246, 134, 86)
 }
 QCheckBox::indicator:unchecked {
+	border-width:1px solid rgb(246, 134, 86);
 	border-radius:4px;
-	border-style:solid;
-	border-width:1px;
-	border-color:rgb(246, 134, 86);
   	background-color:rgb(255,255,255);
 }
 QColorDialog {
@@ -44,47 +35,31 @@ QComboBox {
 	background: #ffffff;
 }
 QComboBox:editable {
-	background: #ffffff;
-	color: rgb(81,72,65);
 	selection-color:rgb(81,72,65);
 	selection-background-color: #ffffff;
 }
 QComboBox QAbstractItemView {
-	color:rgb(81,72,65);	
-	background: #ffffff;
 	selection-color: #ffffff;
 	selection-background-color: rgb(246, 134, 86);
 }
 QComboBox:!editable:on, QComboBox::drop-down:editable:on {
 	color:  #1e1d23;	
-	background: #ffffff;
 }
-QDateTimeEdit {
+QDateTimeEdit, QDateEdit, QDoubleSpinBox, QFontComboBox {
 	color:rgb(81,72,65);
 	background-color: #ffffff;
 }
-QDateEdit {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
+
 QDialog {
 	background-color:#f0f0f0;
 }
-QDoubleSpinBox {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QFontComboBox {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QLabel {
+
+QLabel,QLineEdit {
 	color:rgb(17,17,17);
 }
 QLineEdit {
 	background-color:rgb(255,255,255);
 	selection-background-color:rgb(236,116,64);
-	color:rgb(17,17,17);
 }
 QMenuBar {
 	color:rgb(223,219,210);
@@ -119,46 +94,35 @@ QMenu {
 }
 QMenu::item {
 	color:rgb(223,219,210);
-	padding-left:20px;
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-right:10px;
+	padding:4px 10px 4px 20px;
 }
 QMenu::item:selected {
 	color:rgb(255,255,255);
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(225, 108, 54, 255), stop:1 rgba(246, 134, 86, 255));
 	border-style:solid;
 	border-width:3px;
-	padding-left:17px;
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-right:7px;
+	padding:4px 7px 4px 17px;
 	border-bottom-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(175,85,48,255), stop:1 rgba(236,114,67, 255));
 	border-top-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-right-color:qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-left-color:qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 }
 QPlainTextEdit {
-	border-width: 1px;
-	border-style: solid;
-	border-color:transparent;
+	border-width: 1px solid transparent;
 	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
 }
 QProgressBar {
 	text-align: center;
 	color: rgb(0, 0, 0);
-	border-width: 1px; 
+	border: 1px inset rgb(150,150,150); 
 	border-radius: 10px;
-	border-style: inset;
-	border-color: rgb(150,150,150);
 	background-color:rgb(221,221,219);
 }
 QProgressBar::chunk:horizontal {
 	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(225, 108, 54, 255), stop:1 rgba(246, 134, 86, 255));
-	border-style: solid;
+	border:1px solid;
 	border-radius:8px;
-	border-width:1px;
 	border-bottom-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(175,85,48,255), stop:1 rgba(236,114,67, 255));
 	border-top-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 	border-right-color:qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
@@ -243,7 +207,7 @@ QRadioButton::indicator:!checked {
 	background-color: transparent;
 }
 QScrollArea {
-	color: #FFFFFF;
+	color: white;
 	background-color:#f0f0f0;
 }
 QSlider::groove {
@@ -277,49 +241,37 @@ QSlider::handle:vertical {
 	margin: 0 -5px;
 	border-radius: 7px;
 }
-QSlider::add-page:horizontal {
+QSlider::add-page:horizontal, QSlider::add-page:vertical {
  	background: white;
 }
-QSlider::add-page:vertical {
-	background: white;
-}
-QSlider::sub-page:horizontal {
+QSlider::sub-page:horizontal, QSlider::sub-page:vertical {
 	background: rgb(246, 134, 86);
 }
-QSlider::sub-page:vertical {
-  	background: rgb(246, 134, 86);
-}
-QStatusBar {
+QStatusBar, QSpinBox {
 	color:rgb(81,72,65);
 }
 QSpinBox {
-	color:rgb(81,72,65);
 	background-color: #ffffff;
 }
 QScrollBar:horizontal {
 	max-height: 20px;
-	border: 1px transparent grey;
+	border: 1px transparent;
 	margin: 0px 20px 0px 20px;
 }
 QScrollBar::handle:horizontal {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(207,207,207);
+	border: 1px solid rgb(207,207,207);
 	border-radius: 7px;
 	min-width: 25px;
 }
 QScrollBar::handle:horizontal:hover {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(255,150,60);
+	border: 1px solid rgb(255,150,60);
 	border-radius: 7px;
 	min-width: 25px;
 }
 QScrollBar::add-line:horizontal {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-right-radius: 7px;
@@ -329,11 +281,10 @@ QScrollBar::add-line:horizontal {
   	subcontrol-origin: margin;
 }
 QScrollBar::add-line:horizontal:hover {
-  	border: 1px solid;
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-right-radius: 7px;
-  	border-color: rgb(255,150,60);
   	background: rgb(255, 255, 255);
   	width: 20px;
   	subcontrol-position: right;
@@ -350,8 +301,7 @@ QScrollBar::add-line:horizontal:pressed {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -361,8 +311,7 @@ QScrollBar::sub-line:horizontal {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal:hover {
-  	border: 1px solid;
-  	border-color: rgb(255,150,60);
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -438,8 +387,7 @@ QScrollBar::add-line:vertical:pressed {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -449,8 +397,7 @@ QScrollBar::sub-line:vertical {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical:hover {
-  	border: 1px solid;
-  	border-color: rgb(255,150,60);
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -470,17 +417,13 @@ QScrollBar::sub-line:vertical:pressed {
 }
 QScrollBar::handle:vertical {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(207,207,207);
+	border: 1px solid rgb(207,207,207);
 	border-radius: 7px;
 	min-height: 25px;
 }
 QScrollBar::handle:vertical:hover {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(255,150,60);
+	border: 1px solid rgb(255,150,60);
 	border-radius: 7px;
 	min-height: 25px;
 }
@@ -546,19 +489,7 @@ QTextEdit {
 	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
 }
-QTimeEdit {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox::tab {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox::tab:selected {
+QTimeEdit, QToolBox, QToolBox::tab, QToolBox::tab:selected {
 	color:rgb(81,72,65);
 	background-color: #ffffff;
 }

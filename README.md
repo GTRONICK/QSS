@@ -33,7 +33,11 @@ Themes available:
 
 ![NeonButtons screenshot](https://sites.google.com/site/gtronick/NeonActive.png)
 ![NeonButtons screenshot](https://sites.google.com/site/gtronick/NeonClick.png)
-    
+
+## MacOS Theme!: Reduced code, image integration through URL resources. ##
+9. [MacOS](https://github.com/GTRONICK/QSS/blob/master/MacOS.qss)
+
+![MacOS](https://sites.google.com/site/gtronick/QSS-MacOS.png)    
 Stay tunned!, this files are being updated frequently.
 
 *Consider donating :)* **PayPal Account:** gtronick@gmail.com 
