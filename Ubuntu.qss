@@ -207,7 +207,7 @@ QRadioButton::indicator:!checked {
 	background-color: transparent;
 }
 QScrollArea {
-	color: #FFFFFF;
+	color: white;
 	background-color:#f0f0f0;
 }
 QSlider::groove {
@@ -241,49 +241,37 @@ QSlider::handle:vertical {
 	margin: 0 -5px;
 	border-radius: 7px;
 }
-QSlider::add-page:horizontal {
+QSlider::add-page:horizontal, QSlider::add-page:vertical {
  	background: white;
 }
-QSlider::add-page:vertical {
-	background: white;
-}
-QSlider::sub-page:horizontal {
+QSlider::sub-page:horizontal, QSlider::sub-page:vertical {
 	background: rgb(246, 134, 86);
 }
-QSlider::sub-page:vertical {
-  	background: rgb(246, 134, 86);
-}
-QStatusBar {
+QStatusBar, QSpinBox {
 	color:rgb(81,72,65);
 }
 QSpinBox {
-	color:rgb(81,72,65);
 	background-color: #ffffff;
 }
 QScrollBar:horizontal {
 	max-height: 20px;
-	border: 1px transparent grey;
+	border: 1px transparent;
 	margin: 0px 20px 0px 20px;
 }
 QScrollBar::handle:horizontal {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(207,207,207);
+	border: 1px solid rgb(207,207,207);
 	border-radius: 7px;
 	min-width: 25px;
 }
 QScrollBar::handle:horizontal:hover {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(255,150,60);
+	border: 1px solid rgb(255,150,60);
 	border-radius: 7px;
 	min-width: 25px;
 }
 QScrollBar::add-line:horizontal {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-right-radius: 7px;
@@ -293,11 +281,10 @@ QScrollBar::add-line:horizontal {
   	subcontrol-origin: margin;
 }
 QScrollBar::add-line:horizontal:hover {
-  	border: 1px solid;
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-right-radius: 7px;
-  	border-color: rgb(255,150,60);
   	background: rgb(255, 255, 255);
   	width: 20px;
   	subcontrol-position: right;
@@ -314,8 +301,7 @@ QScrollBar::add-line:horizontal:pressed {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -325,8 +311,7 @@ QScrollBar::sub-line:horizontal {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal:hover {
-  	border: 1px solid;
-  	border-color: rgb(255,150,60);
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -402,8 +387,7 @@ QScrollBar::add-line:vertical:pressed {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical {
-  	border: 1px solid;
-  	border-color: rgb(207,207,207);
+  	border: 1px solid rgb(207,207,207);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -413,8 +397,7 @@ QScrollBar::sub-line:vertical {
   	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical:hover {
-  	border: 1px solid;
-  	border-color: rgb(255,150,60);
+  	border: 1px solid rgb(255,150,60);
   	border-top-right-radius: 7px;
   	border-top-left-radius: 7px;
   	border-bottom-left-radius: 7px;
@@ -434,17 +417,13 @@ QScrollBar::sub-line:vertical:pressed {
 }
 QScrollBar::handle:vertical {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(207,207,207);
+	border: 1px solid rgb(207,207,207);
 	border-radius: 7px;
 	min-height: 25px;
 }
 QScrollBar::handle:vertical:hover {
 	background: rgb(253,253,253);
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(255,150,60);
+	border: 1px solid rgb(255,150,60);
 	border-radius: 7px;
 	min-height: 25px;
 }
