@@ -510,19 +510,7 @@ QTextEdit {
 	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
 }
-QTimeEdit {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox::tab {
-	color:rgb(81,72,65);
-	background-color: #ffffff;
-}
-QToolBox::tab:selected {
+QTimeEdit, QToolBox, QToolBox::tab, QToolBox::tab:selected {
 	color:rgb(81,72,65);
 	background-color: #ffffff;
 }
