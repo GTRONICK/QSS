@@ -38,7 +38,8 @@ Themes available:
 9. [MacOS](https://github.com/GTRONICK/QSS/blob/master/MacOS.qss)
 
 ![MacOS](https://sites.google.com/site/gtronick/QSS-MacOS.png)    
+**Added images in QSS_IMG folder**
+ 
 Stay tunned!, this files are being updated frequently.
-
 *Consider donating :)* **PayPal Account:** gtronick@gmail.com 
 
