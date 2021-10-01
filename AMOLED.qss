@@ -2,7 +2,7 @@
 AMOLED Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 15/10/2019, 11:40.
+Last updated: 01/10/2021, 15:49.
 Available at: https://github.com/GTRONICK/QSS/blob/master/AMOLED.qss
 */
 QMainWindow {
@@ -21,22 +21,11 @@ QTextEdit {
 QPlainTextEdit {
 	selection-background-color:#f39c12;
 	background-color:#000000;
-	border-style: solid;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	border-left-color: transparent;
-	border-bottom-color: transparent;
-	border-width: 1px;
+	border: 1px solid #FF00FF;
 	color: #a9b7c6;
 }
 QPushButton{
-	border-style: solid;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	border-left-color: transparent;
-	border-bottom-color: transparent;
-	border-width: 1px;
-	border-style: solid;
+	border: 1px transparent;
 	color: #a9b7c6;
 	padding: 2px;
 	background-color: #000000;
@@ -57,7 +46,7 @@ QPushButton:hover{
 	border-top-color: transparent;
 	border-right-color: transparent;
 	border-left-color: transparent;
-	border-bottom-color: #e67e22;
+	border-bottom-color: #FF00FF;
 	border-bottom-width: 1px;
 	border-bottom-radius: 6px;
 	border-style: solid;
@@ -70,7 +59,7 @@ QPushButton:pressed{
 	border-top-color: transparent;
 	border-right-color: transparent;
 	border-left-color: transparent;
-	border-bottom-color: #e67e22;
+	border-bottom-color: #FF00FF;
 	border-bottom-width: 2px;
 	border-bottom-radius: 6px;
 	border-style: solid;
@@ -304,7 +293,7 @@ QRadioButton::indicator:!checked {
 	background-color: transparent;
 }
 QStatusBar {
-	color:#027f7f;
+	color:#34e8eb;
 }
 QSpinBox {
 	color: #a9b7c6;	
