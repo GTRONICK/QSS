@@ -2,7 +2,7 @@
 Ubuntu Style Sheet for QT Applications
 Author: Jaime A. Quiroga P.
 Company: GTRONICK
-Last updated: 09/10/2019 (dd/mm/yyyy), 12:31.
+Last updated: 01/10/2021 (dd/mm/yyyy), 15:18.
 Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
 */
 QMainWindow {
@@ -108,9 +108,10 @@ QMenu::item:selected {
 	border-left-color:qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.5, stop:0 rgba(253,156,113,255), stop:1 rgba(205,90,46, 255));
 }
 QPlainTextEdit {
-	border-width: 1px solid transparent;
+	border: 1px solid transparent;
 	color:rgb(17,17,17);
 	selection-background-color:rgb(236,116,64);
+    background-color: #FFFFFF;
 }
 QProgressBar {
 	text-align: center;
