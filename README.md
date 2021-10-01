@@ -2,7 +2,7 @@
 Themes available:
 1. [Ubuntu](https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss)
 
-![Ubuntu theme screenshot](https://sites.google.com/site/gtronick/QSS-Ubuntu.png)
+![Ubuntu theme screenshot](https://i.imgur.com/i8zVYwL.png)
     
 2. [ElegantDark](https://github.com/GTRONICK/QSS/blob/master/ElegantDark.qss)
 
