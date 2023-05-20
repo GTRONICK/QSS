@@ -1,0 +1,58 @@
+/* This is basic css style for pyqt5 Web browser */
+
+QToolBar {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 30px;
+    border: none;
+}
+
+QLineEdit {
+    font-family: arial;
+    background-color: #f6f6f6;
+    color: #212121;
+    font-size: 15px;
+    height: 35px;
+    width: 30px;
+    border: none;
+}
+
+/* New Beta Func */
+
+QPushButton {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #ffffff;
+    border: #212121;
+}
+
+QAction {
+    font-size: 25px;
+}
+  
+
+QTabWidget::pane {
+    border: 1px solid #f5f5f5;
+}
+
+QTabBar::tab {
+    background-color: #f2f2f2;
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    background-color: #fff;
+    border: none;
+}
+
+QTabBar::tab:hover {
+    background-color: #e6e6e6;
+}
