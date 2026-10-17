@@ -44,7 +44,8 @@ QPushButton:hover {
 	border-left-color: transparent;
 	border-bottom-color: #FF00FF;
 	border-bottom-width: 1px;
-	border-bottom-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 	border-style: solid;
 	color: #FFFFFF;
 	padding-bottom: 2px;
@@ -57,7 +58,8 @@ QPushButton:pressed {
 	border-left-color: transparent;
 	border-bottom-color: #FF00FF;
 	border-bottom-width: 2px;
-	border-bottom-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 	border-style: solid;
 	color: #e67e22;
 	padding-bottom: 1px;
@@ -70,7 +72,8 @@ QPushButton:disabled {
 	border-left-color: transparent;
 	border-bottom-color: transparent;
 	border-bottom-width: 2px;
-	border-bottom-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 	border-style: solid;
 	color: #808086;
 	padding-bottom: 1px;
@@ -107,7 +110,8 @@ QToolButton:hover {
 	border-left-color: transparent;
 	border-bottom-color: #e67e22;
 	border-bottom-width: 2px;
-	border-bottom-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 	border-style: solid;
 	color: #FFFFFF;
 	padding-bottom: 1px;
@@ -169,7 +173,8 @@ QMenuBar::item:selected {
 	border-left-color: transparent;
 	border-bottom-color: #e67e22;
 	border-bottom-width: 1px;
-	border-bottom-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 	border-style: solid;
 	color: #FFFFFF;
 	padding-bottom: 0px;
